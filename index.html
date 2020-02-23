@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <style>
+   h1 {
+  color: blue;
+  text-align: center;
+}
+  .footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #c21b28 ;
+   color: white;
+   text-align: center;
+}
+  </style>
+
+ </head>
+ <body>
+ 
+  <nav class="navbar navbar-expand-sm bg-danger navbar-dark">
+  <ul class="navbar-nav">
+    <li class="nav-item active">
+      <a class="nav-link" >STEMMER</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="index.html">Home</a>
+    </li>
+   
+  </ul>
+</nav>
+ <br><br><br><br><br><br><center>
+ <h1>Upload File Here!!</h1><br><br><br>
+ <form action="upload.php" method="post" enctype="multipart/form-data">
+    <input type="file" name="fileToUpload" id="fileToUpload">
+    <input type="submit" value="Upload File" name="submit">
+ </form>
+ </center>
+  <div>
+ <div class="footer page-header">
+            <hr>
+            <p class="mute">&copy; Stemmer</p>
+        </div>
+</body>
+</html>
