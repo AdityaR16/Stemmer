@@ -1,7 +1,5 @@
 # Stemmer
 Stemmer for English Language
-
-# About
   
 # How to run
   1. Save all the files in localhost (/var/www/html/)
